@@ -45,7 +45,9 @@ app.use(express.static("public"));
 app.use("/uploads", express.static("uploads"));
 
 // MONGODB CONNECTION
-mongoose.connect("mongodb://127.0.0.1:27017/exammatrix")
+mongoose.connect(
+    process.env.MONGO_URL || "mongodb://127.0.0.1:27017/exammatrix"
+)
 .then(() => console.log("MongoDB Connected"))
 .catch(() => console.log("MongoDB Connection Failed"));
 
