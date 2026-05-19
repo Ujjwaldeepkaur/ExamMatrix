@@ -1,0 +1,115 @@
+[
+  {
+    "name": "Ujjwal",
+    "roll": "568",
+    "email": "ujjwaldeep@gmail.com",
+    "password": "2517"
+  },
+  {
+    "name": "Ujjwaldeep kaur",
+    "email": "ujjwal@gmail.com",
+    "password": "$2b$10$XP3kTpCy/OfGSMfsWpw4DuM84A6yaUTcRDMLmn8clKaPxfooHBecu"
+  },
+  {
+    "role": "student",
+    "name": "ujjwal",
+    "email": "ujj@gmail.com",
+    "password": "$2b$10$tRiS/5WAhcL.5JgkGhFZx.p4NPdHBec5k6mMIF0UFAiZCtyOiyJtC"
+  },
+  {
+    "role": "student",
+    "name": "Ujjwaldeep ",
+    "email": "ujj@gmail.com",
+    "password": "$2b$10$fk654S85zw9XTEu1baV2TOi5EDAjFf0DGdOeXRnRCMMoOnkLWIq5C"
+  },
+  {
+    "role": "student",
+    "name": "ujjwal",
+    "email": "ujj@gmail.com",
+    "password": "$2b$10$RMAjRMuKLQ0gMSICvdf...mV012I.Rzk1w7ximTlUHts6ozajyvRC"
+  },
+  {
+    "role": "student",
+    "name": "ujjwal",
+    "email": "ujj@gmail.com",
+    "password": "$2b$10$gT4mKMMwr5Ocy/QMAMIjEuzQQJ5pWJJmgjKvrMVuChuCc/RwE9KsW"
+  },
+  {
+    "role": "student",
+    "name": "ujjwal",
+    "email": "ujj@gmail.com",
+    "password": "$2b$10$u1Zwblu2Gj6P0uAHhNqTtO5pXLNjumCY34NKikDxRxInYtAR3.ocy"
+  },
+  {
+    "role": "teacher",
+    "name": "jashan",
+    "email": "jashn@gmail.com",
+    "password": "$2b$10$W5MowwGWTk9PqhMYqB7XV.WmvJ85CvJvpn2BB3RfF7rQJLiE7zrmu"
+  },
+  {
+    "role": "teacher",
+    "name": "jashan",
+    "email": "jashn@gmail.com",
+    "password": "$2b$10$mIKGzka5Ozc6RPIdstS5seft.k.OCFh07FfXbuBLDgRZhAVT7EkzK"
+  },
+  {
+    "role": "student",
+    "name": "ujjwal",
+    "email": "ujj@gmail.com",
+    "password": "$2b$10$0QSSiXFikO1R3RVY0lsMTeHE6gsPRSJD2xkajMdpxceQGATRFXYxe"
+  },
+  {
+    "role": "student",
+    "name": "ujjwal",
+    "email": "ujj@gmail.com",
+    "password": "$2b$10$vtmxqm6K7LxR/FViGXwh1.KZq4WBfbeOq6Ah2AwUisltleAgMluM2"
+  },
+  {
+    "role": "teacher",
+    "name": "jashan",
+    "email": "jashn@gmail.com",
+    "password": "$2b$10$Gb9ZR.eXZPGulfkpvSl0v.K2XT1ORCwxRSFKexYWdpBVmfZkirMiq"
+  },
+  {
+    "role": "teacher",
+    "name": "jashan",
+    "email": "jashn@gmail.com",
+    "password": "$2b$10$yF8JIVENHp9NLCjyHtNXLe4BANNzMXIHRdju7.0ohsJefyMiU5vHq"
+  },
+  {
+    "role": "student",
+    "name": "ujjwal",
+    "email": "ujj@gmail.com",
+    "password": "$2b$10$ti2UpuI5KYKbl1ZcQq8fEekdYgrr55pqlElPNpBC2aLLMwy1xXoyW"
+  },
+  {
+    "role": "teacher",
+    "name": "jashan",
+    "email": "jashn@gmail.com",
+    "password": "$2b$10$/BtrmtppETkdC8HbdLwkLObqm8OUDddPiJczy8oIswZ0I1p/brMg6"
+  },
+  {
+    "role": "teacher",
+    "name": "jashan",
+    "email": "jashn@gmail.com",
+    "password": "$2b$10$31rBMG7O3lYos/1XzO7AFOpmth7XHehtwLWacukT/r0w2wj1TobGK"
+  },
+  {
+    "role": "student",
+    "name": "ujjwal",
+    "email": "ujj@gmail.com",
+    "password": "$2b$10$b49/1DkNeZ4XA40xwLF7luijaxv5N1GZO8dfhAs/Hz4GKL.r2bRpy"
+  },
+  {
+    "role": "student",
+    "name": "ujjwal",
+    "email": "ujj@gmail.com",
+    "password": "$2b$10$fLDQeQ3xJvERoZ8RG9/A0eLSNEaOYDXlndTh3t5.3qFBoHB/U8u5a"
+  },
+  {
+    "role": "teacher",
+    "name": "jashan",
+    "email": "jashn@gmail.com",
+    "password": "$2b$10$ueD/VK/zxBhsI6B0gvPQc.E2Fr6jtln3guoYttUHOz7DDyBGk42Ta"
+  }
+]

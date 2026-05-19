@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Results</title>
+</head>
+<body style="font-family:Arial; text-align:center; background:#f3e5f5;">
+
+<h1>Student Results</h1>
+
+<% results.forEach(function(result){ %>
+    <div style="margin:20px; padding:15px; background:white; border-radius:10px;">
+        <h2><%= result.name %></h2>
+        <p>Roll No: <%= result.roll %></p>
+        <p>Score: <%= result.score %></p>
+    </div>
+<% }) %>
+
+<a href="/">Back</a>
+
+</body>
+</html>

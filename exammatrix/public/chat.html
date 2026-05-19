@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Chat System</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial;
+            background: linear-gradient(to right, #36d1dc, #5b86e5);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .container {
+            width: 650px;
+            background: white;
+            padding: 40px;
+            border-radius: 20px;
+            text-align: center;
+            box-shadow: 0px 0px 20px rgba(0,0,0,0.2);
+        }
+
+        h1 {
+            color: #2c3e50;
+            margin-bottom: 25px;
+        }
+
+        input {
+            width: 70%;
+            padding: 12px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            font-size: 15px;
+        }
+
+        button {
+            padding: 12px 20px;
+            background: #3498db;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            margin-left: 10px;
+        }
+
+        button:hover {
+            background: #2980b9;
+        }
+
+        ul {
+            margin-top: 25px;
+            text-align: left;
+            list-style: none;
+            padding: 0;
+        }
+
+        li {
+            background: #ecf0f1;
+            padding: 10px;
+            margin: 8px 0;
+            border-radius: 8px;
+        }
+
+        a {
+            text-decoration: none;
+            background: #27ae60;
+            color: white;
+            padding: 12px 24px;
+            border-radius: 8px;
+            display: inline-block;
+            margin-top: 25px;
+        }
+
+        a:hover {
+            background: #1e8449;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+
+    <h1>Socket.io Chat System</h1>
+
+    <input id="msg" placeholder="Enter your message">
+    <button onclick="sendMessage()">Send</button>
+
+    <ul id="messages"></ul>
+
+    <a href="/student-dashboard">Back to Dashboard</a>
+
+</div>
+
+<script src="/socket.io/socket.io.js"></script>
+
+<script>
+    const socket = io();
+
+    function sendMessage() {
+        let msg = document.getElementById("msg").value;//Take message from input box
+        socket.emit("chat message", msg);//Send message to server using
+        document.getElementById("msg").value = "";//clear input box for next  message
+    }
+
+    socket.on("chat message", function(msg) {
+        let li = document.createElement("li");
+        li.innerText = msg;
+        document.getElementById("messages").appendChild(li);
+    });
+</script>
+
+</body>
+</html>  

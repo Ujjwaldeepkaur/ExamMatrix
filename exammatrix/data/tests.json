@@ -1,0 +1,22 @@
+[
+  {
+    "testName": "st1",
+    "subject": "maths",
+    "question": "2*2=",
+    "option1": "1",
+    "option2": "2",
+    "option3": "3",
+    "option4": "4",
+    "answer": "4"
+  },
+  {
+    "testName": "st2",
+    "subject": "backend",
+    "question": "what is cookies",
+    "option1": "data stored in browser",
+    "option2": "data stored in server",
+    "option3": "data stored in RAM",
+    "option4": "data stored in ROM",
+    "answer": "data stored in browser"
+  }
+]

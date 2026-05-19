@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>ExamMatrix Login</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial;
+            background: linear-gradient(to right, #11998e, #38ef7d);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .container {
+            width: 500px;
+            background: white;
+            padding: 35px;
+            border-radius: 18px;
+            box-shadow: 0px 0px 20px rgba(0,0,0,0.2);
+            text-align: center;
+        }
+
+        h1 {
+            color: #2c3e50;
+        }
+
+        input {
+            width: 85%;
+            padding: 12px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            font-size: 15px;
+        }
+
+        button {
+            background: #3498db;
+            color: white;
+            border: none;
+            padding: 12px 28px;
+            border-radius: 8px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background: #2980b9;
+        }
+
+        a {
+            text-decoration: none;
+            color: white;
+            background: #9b59b6;
+            padding: 10px 20px;
+            border-radius: 8px;
+            display: inline-block;
+            margin-top: 15px;
+        }
+
+        a:hover {
+            background: #8e44ad;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+
+    <h1>Login Portal</h1>
+
+    <form action="/login" method="POST">
+
+        <input type="email" name="email" placeholder="Enter Email" required>
+        <br>
+
+        <input type="password" name="password" placeholder="Enter Password" required>
+        <br>
+
+        <button type="submit">Login</button>
+
+    </form>
+
+    <br>
+
+    <a href="/">Back to Registration</a>
+
+</div>
+
+</body>
+</html>
