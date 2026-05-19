@@ -111,5 +111,23 @@
     "name": "jashan",
     "email": "jashn@gmail.com",
     "password": "$2b$10$ueD/VK/zxBhsI6B0gvPQc.E2Fr6jtln3guoYttUHOz7DDyBGk42Ta"
+  },
+  {
+    "role": "teacher",
+    "name": "jashan",
+    "email": "jashn@gmail.com",
+    "password": "$2b$10$Z.PdyzygKfvz71y6HQ785ONJ0vgZo0XtNahHKMIXapxZQLNOaxOCG"
+  },
+  {
+    "role": "student",
+    "name": "ujjwal",
+    "email": "ujj@gmail.com",
+    "password": "$2b$10$6Zmvhd3a7BeuwHPb5rWVueuskZnPFO5h8Hp9gO.yVm/Rb5.zKm0.S"
+  },
+  {
+    "role": "teacher",
+    "name": "jashan",
+    "email": "jashn@gmail.com",
+    "password": "$2b$10$2uxBrL04oumo4Ew16LDcA.H1A3cV5fpkkMTSXM6.VeSQddJWWPx0e"
   }
 ]
